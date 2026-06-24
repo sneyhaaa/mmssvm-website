@@ -1,1 +1,84 @@
-/* TailwindCSS custom styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.disclosure-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.disclosure-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #991b1b;
+    margin-bottom: 40px;
+}
+
+.pdf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.pdf-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.pdf-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.pdf-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.pdf-card h3 {
+    color: #b91c1c;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.pdf-card p {
+    color: #555;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+.view-btn {
+    display: inline-block;
+    background: #b91c1c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background: #7f1d1d;
+}
+
+.header {
+    background: #991b1b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer {
+    background: #991b1b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
